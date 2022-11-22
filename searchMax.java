@@ -12,9 +12,12 @@ public class searchMax {
             arr[i] = (int)(Math.random()*100);
             createArr = arr;
             System.out.println("arr["+i+"] : "+arr[i]);
+
             if(arr[0]<arr[i]){
                 arr[0] = arr[i];
                 max = arr[i];
+            }else if(arr[0]>arr[i]){
+                max = arr[0];
             }
             if(max == createArr[i]){
                 count = i;
@@ -22,7 +25,7 @@ public class searchMax {
 
         }
 
-            System.out.println("최댓값 : "+max+"\n배열의 인덱스 : " + count+"\n자릿수 : "+ (count+1));
+            System.out.println("최댓값 : "+max+"\n배열의 인덱스 : arr[" + count+"]\n자릿수 : "+ (count+1));
 
     }
 }
