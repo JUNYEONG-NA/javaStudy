@@ -19,6 +19,7 @@ public class searchMax {
                 count = i;
             }else if(arr[0]>arr[i]){
                 max = arr[0];
+
             }
 //            if(max == createArr[i]){
 //            }
