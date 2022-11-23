@@ -5,23 +5,23 @@ public class searchMax {
         Scanner sc = new Scanner(System.in);
 
         int[] arr = new int[9];
-        int[] createArr = new int[arr.length];
+//        int[] createArr = new int[arr.length];
         int max = 0;
         int count=0;
         for(int i = 0; i<arr.length;i++){
             arr[i] = (int)(Math.random()*100);
-            createArr = arr;
+//            createArr = arr;
             System.out.println("arr["+i+"] : "+arr[i]);
 
             if(arr[0]<arr[i]){
                 arr[0] = arr[i];
                 max = arr[i];
+                count = i;
             }else if(arr[0]>arr[i]){
                 max = arr[0];
             }
-            if(max == createArr[i]){
-                count = i;
-            }
+//            if(max == createArr[i]){
+//            }
 
         }
 
