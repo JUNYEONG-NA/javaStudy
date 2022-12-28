@@ -1,5 +1,5 @@
 package on1217;
-// 싱글톤 패턴은 객체가 하나임을 증명하고 싶을때 사용 - HS
+// 싱글톤 패턴은 객체가 하나임을 증명하고 싶을때 사용
 final class Singleton{
     private static Singleton s = new Singleton();
 

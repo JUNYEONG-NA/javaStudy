@@ -30,9 +30,10 @@ public class Ch6_ex25_Constructor_3 {
     public static void main(String[] args) {
         Car2 c1 = new Car2();
         Car2 c2 = new Car2("blue");
+//        Car2 c3 = new Car2("red", "stick", 8);
 
         System.out.println("c1의 속성 = "+ c1.color+" , "+c1.gearType+" , "+c1.door);
         System.out.println("c2의 속성 = "+ c2.color+" , "+c2.gearType+" , "+c2.door);
-
+//        System.out.println("c3의 속성 = "+ c3.color+" , "+c3.gearType+" , "+c3.door);
     }
 }
